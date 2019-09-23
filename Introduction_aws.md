@@ -10,6 +10,8 @@ Cloud Computing merupakan sumber daya komputer yang bersifat elastis, dengan men
 
 **Cloud Architecture And Service Models**
 
+![Arsitektur Service Model Cloud](https://github.com/azispc/AWS/blob/master/result/arsitekturcloud.png)
+
 Menurut (Mell, 2009) terdapat 3 arsitektur cloud sebagai berikut :
 
 1. *Infrastructure as a Service* (IaaS) menyediakan infrastruktur IT berupa CPU, RAM, Storage dan jaringan **ex.** Amazon EC2, TelkomCloud, BiznetCloud dll.
