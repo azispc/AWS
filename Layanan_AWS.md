@@ -1,6 +1,6 @@
 <h2>AWS Cloud Computing Service</h2>
 
-![Revolusi Cloud](https://github.com/azispc/AWS/blob/master/result/revolusicloud.png)
+<center>![Revolusi Cloud](https://github.com/azispc/AWS/blob/master/result/revolusicloud.png)</center>
 
 **AWS Cloud Computing**
 
@@ -38,7 +38,9 @@
 
 **Arsitektur Aplikasi monoLithic VS microService**
 
-![monolithic](https://github.com/azispc/AWS/blob/master/result/monolitikvsmicroservice.png)
+<p align="center">
+  <img src="https://github.com/azispc/AWS/blob/master/result/monolitikvsmicroservice.png">
+</p>
 
 1. *MonoLithic Arsitecture* terdiri **semua** dalam **satu** bagian.
 
@@ -54,4 +56,4 @@
  * Proses update aplikasi hanya melingkupi layanan yang terkait.
  * Integrasi komunikasi antar Module mengalami kegagalan.
 
- ![monolithic vs microservice](https://github.com/azispc/AWS/blob/master/result/arsitekturmonovsmicro.png)
+<center> ![monolithic vs microservice](https://github.com/azispc/AWS/blob/master/result/arsitekturmonovsmicro.png)</center>
