@@ -61,3 +61,7 @@
 <p align="center">
   <img src="https://github.com/azispc/AWS/blob/master/result/arsitekturmonovsmicro.png">
 </p>
+
+**Source**
+* [Amazon Web Services](https://d1.awsstatic.com/whitepapers/aws-overview.pdf)
+* [Essential of Cloud Computing](http://index-of.co.uk/Cloud-Computing-Books/Essentials%20of%20cloud%20computing%20(2015).pdf)
