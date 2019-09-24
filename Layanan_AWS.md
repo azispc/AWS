@@ -1,7 +1,8 @@
 <h2>AWS Cloud Computing Service</h2>
 
-<center>![Revolusi Cloud](https://github.com/azispc/AWS/blob/master/result/revolusicloud.png)</center>
-
+<p align="center">
+  <img src="https://github.com/azispc/AWS/blob/master/result/revolusicloud.png">
+</p>
 **AWS Cloud Computing**
 
 1. *Amazon Elastis Compute Cloud (EC2)* layanan cloud computing untuk yang berbasis web.[AWS EC2](https://aws.amazon.com/id/ec2/).
@@ -56,4 +57,6 @@
  * Proses update aplikasi hanya melingkupi layanan yang terkait.
  * Integrasi komunikasi antar Module mengalami kegagalan.
 
-<center> ![monolithic vs microservice](https://github.com/azispc/AWS/blob/master/result/arsitekturmonovsmicro.png)</center>
+<p align="center">
+  <img src="https://github.com/azispc/AWS/blob/master/result/arsitekturmonovsmicro.png">
+</p>
