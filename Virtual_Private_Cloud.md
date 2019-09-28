@@ -36,16 +36,19 @@ Hardware tenancy: Default
 </p>
 
 8. **Create** VPC and **Ok**
+
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_4.png">
 </p>
 
 **Security Group**
 1. pada navigasi Dashboard pada VPN pada bagian **Security**
+
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_5.png">
 </p>
 2. Create security group
+
 ```
 Security group name: myserver_maz
 Description: myserver by asw
@@ -56,6 +59,7 @@ VPC: pilih VPC yang dibuat
 </p>
 3. create
 4. membuat rule protokol **Inbound Rules** Edit Rules
+
 ```
 Type: SSH
 Protocol: TCP
@@ -63,9 +67,11 @@ Port range: 22
 Source: anyware
 Description: ---
 ```
+
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_7.png">
 </p>
+
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_8.png">
 </p>
@@ -79,10 +85,13 @@ Description: ---
 **AWS EC2 type Instance t2 micro**
 1. buka AWS console untuk EC2 **Find Service**
 2. Launch Instance
+
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_10.png">
 </p>
+
 3. Choose as Instance Type
+
 ```
 Family: General purpose
 Type: t2 micro
@@ -92,11 +101,13 @@ Instance Storage: EBS only
 Network Performance: Low to Moderate
 IPv6 Support: Yes
 ```
+
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_11.png">
 </p>
 
 4. Next: **Configure Instance Details**
+
 ```
 Purchasing option : -
 Network: pilih VPC yang sudah dibuat
@@ -111,6 +122,7 @@ Shutdown behavior: Stop
 </p>
 
 5. Next: Add Storage
+
 ```
 Volume type: Root
 Device: /dev/xvda
@@ -127,6 +139,7 @@ Encryption: Not-Encryption
 </p>
 
 6. Next: Add Tags
+
 ```
 Key: name
 Value: serverlinux_maz
@@ -138,6 +151,7 @@ Volume: ok
 </p>
 
 7. Next: Configure Security group pilih **Select an existing security Group**
+
 ```
 Security Group ID: SG yg telah dibuat pd VPC
 Name:
@@ -149,26 +163,32 @@ Actions:
 </p>
 
 8. Review and Launch
+
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_14.png">
 </p>
 9. Select an existing key pair or create a new key pair
+
 ```
 Create a new key pair
 Key pair name: MyKeyPair
 ```
 10. Launch And selesai.
+
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_15.png">
+
 </p>
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_15a.png">
 </p>
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_15b.png">
+
 </p>
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_15c.png">
+
 </p>
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_15d.png">
@@ -177,10 +197,13 @@ Key pair name: MyKeyPair
 
 **Konfigurasi Elastis IPs melalui navigasi Dashboard VPC**
 1. Pada navigasi dashboard pilih **Elastis IPs**
+
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_16.png">
 </p>
+
 2. Allocate new address
+
 ```
 Scope: VPC
 IPv4 address pool: Amazon pool
@@ -188,12 +211,16 @@ IPv4 address pool: Amazon pool
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_17.png">
 </p>
+
 3. Allocate
 4. CLose
+
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_18.png">
 </p>
+
 5. Associate address
+
 ```
 Resource type: Instance
 Instance: pilih nama instance yg telah dibuat
@@ -203,6 +230,7 @@ Reassocian:-
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_19.png">
 </p>
+
 6. Selesai.
 
 
