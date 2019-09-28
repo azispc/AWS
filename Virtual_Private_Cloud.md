@@ -32,7 +32,7 @@ Hardware tenancy: Default
 ```
 
 <p align="center">
-<img src="https://github.com/azispc/AWS/blob/master/result/byMaz_3.png">
+<img width="600" height="200" src="https://github.com/azispc/AWS/blob/master/result/byMaz_3.png">
 </p>
 
 8. **Create** VPC and **Ok**
