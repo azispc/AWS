@@ -9,7 +9,6 @@ Note: Your Instances will launch in the US East (N. Virginia)
 3. pastikan region sama saat selama menjalankan AWS
 4. pilih **AWS Service** pada **Find Service** ketik VPC dan pilih
 5. pada **VPC Dashboard** silahkan klik Launch **VPC Wizard**
-
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_1.png">
 </p>
@@ -18,7 +17,7 @@ Note: Your Instances will launch in the US East (N. Virginia)
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_2.png">
 </p>
-7. VPC with a singgle Public Subnet
+7. VPC with a singgle Public subnet
 ```
 IP4 CIDR block:10.0.0.0/16
 IPV6 CIDR: No.IPV6 CIDR block
@@ -65,7 +64,6 @@ Description: ---
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_7.png">
 </p>
-
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_8.png">
 </p>
