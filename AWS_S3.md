@@ -78,3 +78,10 @@ https://masbocket.s3.amazonaws.com/news/helloworld.html
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/hello_5.png">
 </p>
+
+
+**Berikut Contoh File Sharing silahkan Buka link berikut Ini**
+
+```
+https://masbuckets1.s3.amazonaws.com/second/answare.html
+```
