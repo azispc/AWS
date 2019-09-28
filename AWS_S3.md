@@ -37,8 +37,11 @@ Encryption: None (Use bucket settings)
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/s3_4.png">
 </p>
+
 8. Next.
+
 9. klik **file** dengan nama **helloworld.html** dan pilih *Make public* supaya dapat diakses oleh komputer lain dengan link berikut ini:
+
 ```
 https://masbocket.s3.amazonaws.com/news/helloworld.html
 ```
