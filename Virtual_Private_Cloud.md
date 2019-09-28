@@ -9,21 +9,24 @@ Note: Your Instances will launch in the US East (N. Virginia)
 3. pastikan region sama saat selama menjalankan AWS
 4. pilih **AWS Service** pada **Find Service** ketik VPC dan pilih
 5. pada **VPC Dashboard** silahkan klik Launch **VPC Wizard**
+
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_1.png">
 </p>
 
-6. select VPC configure
+6. select VPC Configure.
+
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_2.png">
 </p>
+
 7. VPC with a singgle Public subnet
 
 ```
-IP4 CIDR block:10.0.0.0/16
+IP4 CIDR block:10.*.*.*/16
 IPV6 CIDR: No.IPV6 CIDR block
 VPC name : vpc_maz
-Public subnet IPV4 CIDR: 10.0.0.0/24
+Public subnet IPV4 CIDR: 10.*.*.*/24
 Available Zone: No Preference
 Subnet name: sub_maz
 Service Endpoint
@@ -42,11 +45,13 @@ Hardware tenancy: Default
 </p>
 
 **Security Group**
+
 1. pada navigasi Dashboard pada VPN pada bagian **Security**
 
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_5.png">
 </p>
+
 2. Create security group
 
 ```
@@ -54,10 +59,13 @@ Security group name: myserver_maz
 Description: myserver by asw
 VPC: pilih VPC yang dibuat
 ```
+
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_6.png">
 </p>
-3. create
+
+3. Create
+
 4. membuat rule protokol **Inbound Rules** Edit Rules
 
 ```
@@ -78,11 +86,13 @@ Description: ---
 
 5. Save rules
 6. Close.
+
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_9.png">
 </p>
 
 **AWS EC2 type Instance t2 micro**
+
 1. buka AWS console untuk EC2 **Find Service**
 2. Launch Instance
 
@@ -117,6 +127,7 @@ Capasity Reservation: Open
 IAM role: None
 Shutdown behavior: Stop
 ```
+
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_12.png">
 </p>
@@ -134,6 +145,7 @@ Throughput: N/A (MB/s)
 Delete on termination: ok
 Encryption: Not-Encryption
 ```
+
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_13.png">
 </p>
@@ -146,6 +158,7 @@ Value: serverlinux_maz
 Instance: ok
 Volume: ok
 ```
+
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_14.png">
 </p>
@@ -158,6 +171,7 @@ Name:
 Description:
 Actions:
 ```
+
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_15.png">
 </p>
@@ -167,6 +181,7 @@ Actions:
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_14.png">
 </p>
+
 9. Select an existing key pair or create a new key pair
 
 ```
@@ -182,6 +197,7 @@ Key pair name: MyKeyPair
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_15a.png">
 </p>
+
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_15b.png">
 
@@ -208,6 +224,7 @@ Key pair name: MyKeyPair
 Scope: VPC
 IPv4 address pool: Amazon pool
 ```
+
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_17.png">
 </p>
@@ -227,6 +244,7 @@ Instance: pilih nama instance yg telah dibuat
 Private IP: sesuai VPC pada EC2
 Reassocian:-
 ```
+
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_19.png">
 </p>
@@ -272,6 +290,7 @@ chomd 400 keypair_maz_27_09_2019.pem
 ssh -i key.pem hostname@IPv4_pubic
 ssh -i keypair_maz_27_09_2019.pem ec2-user@IPv4_pubic
 ```
+
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_20.png">
 </p>
