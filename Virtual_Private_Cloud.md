@@ -18,6 +18,7 @@ Note: Your Instances will launch in the US East (N. Virginia)
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_2.png">
 </p>
 7. VPC with a singgle Public subnet
+
 ```
 IP4 CIDR block:10.0.0.0/16
 IPV6 CIDR: No.IPV6 CIDR block
@@ -29,6 +30,7 @@ Service Endpoint
 Enable DNS hostname: Yes
 Hardware tenancy: Default
 ```
+
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/byMaz_3.png">
 </p>
