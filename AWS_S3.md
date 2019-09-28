@@ -72,5 +72,9 @@ https://masbocket.s3.amazonaws.com/news/helloworld.html
 6. Pilih **Action** dan pilih **Paste**
 
 <p align="center">
+<img src="https://github.com/azispc/AWS/blob/master/result/hello_4.png">
+</p>
+
+<p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/hello_5.png">
 </p>
