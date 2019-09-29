@@ -246,4 +246,4 @@ $ sudo mv samplepage.html ~/var/www/html/
 8. Selesai dan silahkan access melalui IP Public seperti berikut ini.
 
 <p align="center">
-<img src="https://github.com/azispc/AWS/blob/master/result/rds_6.png">
+<img src="https://github.com/azispc/AWS/blob/master/result/rds_7.png">
