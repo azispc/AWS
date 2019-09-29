@@ -247,3 +247,49 @@ $ sudo mv samplepage.html ~/var/www/html/
 
 <p align="center">
 <img src="https://github.com/azispc/AWS/blob/master/result/rds_7.png">
+
+
+**Load Balancer**
+1. Buka Console Amazon ec22
+2. Pada navigasi pilih **Load Balancer**
+3. Create Load Balancer
+4. Pilih Application Load Balancer **Create**
+5. Configure Your Load Balancer and Listener
+```
+Name: web-serverbalacer09
+Schema: Default
+Ip-address type: Default
+Listener: HTTP
+Port: 80
+Availability Zone: pilih public dan Private
+```
+6. Next: Configure Security Settings
+7. Configure a Security Group for Your Load Balancer
+
+```
+Create security group: sg-securitybalncer
+Description: -
+```
+8. Next: Configure Routing.
+9. Configure Your Target Group.
+```
+Target group: default
+Name:
+Instance:
+HTTP.
+Port:80
+```
+10. Create
+11. Create and Test Your Load Balancer
+12. Pada navigasi Load Balancer pilih targer group instance
+13. Pilih target instance
+14. Selesai.
+
+<p align="center">
+<img src="https://github.com/azispc/AWS/blob/master/result/bal_1.png">
+
+<p align="center">
+<img src="https://github.com/azispc/AWS/blob/master/result/bal_2.png">
+
+<p align="center">
+<img src="https://github.com/azispc/AWS/blob/master/result/bal_3.png">
